@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ff7043;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+ 
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background: #ff7043;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #e64a19;
+}
+
+.recipes {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.recipes h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.recipe-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-card h3 {
+  font-size: 24px;
+  margin: 15px;
+}
+
+.recipe-card p {
+  font-size: 16px;
+  margin: 0 15px 15px;
+}
+
+.about, .contact {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.about h2, .contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p, .contact p {
+  font-size: 18px;
+  margin: 0 auto 20px;
+  max-width: 800px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  background: #ff7043;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #e64a19;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff7043;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto 20px;
+  max-width: 800px;
+  color: #555;
+}
+
+/* About Section */
+.about-container {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Contact Section */
+.contact-container {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #ff7043;
+  box-shadow: 0 0 5px rgba(255, 112, 67, 0.5);
+}
+
+form button {
+  background: #ff7043;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #e64a19;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ff7043;
+  text-decoration: none;
+}
